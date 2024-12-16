@@ -8,7 +8,7 @@
 
 [デモ](https://ninjagl.vercel.app) | [ドキュメント](https://ninjagl.vercel.app/docs) | [チュートリアル](https://ninjagl.vercel.app/docs/tutorial)
 
-NinjaGLは、[ReactThreeFiber](https://github.com/pmndrs/react-three-fiber)のリソースを活用して制作されたゲームエンジンです。
+NinjaGLは、[ReactThreeFiber](https://github.com/pmndrs/react-three-fiber)のリソースを活用して制作されたメタバース制作エンジンです。
 
 ## ショーケース
 
@@ -20,7 +20,7 @@ NinjaGLは、[ReactThreeFiber](https://github.com/pmndrs/react-three-fiber)の�
 </div>
 
 ## 特徴🌴
-* Reactに統合可能なゲームエンジン🚀
+* Reactに統合可能なメタバース🚀
 * Skywayを使用したマルチプレイヤー対応👥
 * モバイル | PC | ゲームパッド 複数の操作に対応📱
 * [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh)に活用した高速な物理エンジン💥

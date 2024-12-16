@@ -83,7 +83,8 @@ const _Water = ({ om }) => {
 
   return (
     <Suspense fallback={null}>
-      <Water
+      {/** Waterの一時停止 */}
+      {/* <Water
         grp={ref}
         width={width}
         height={height}
@@ -102,7 +103,7 @@ const _Water = ({ om }) => {
             e.preventDefault();
           }
         }}
-      />
+      /> */}
     </Suspense>
   );
 };
