@@ -70,6 +70,9 @@ export const MyLight = (prop: ILightProps) => {
       if (om.args.mapSizeHeight && om.args.type === "directional") {
         ref.current.shadow.mapSize.height = om.args.mapSizeHeight;
       }
+      if (om.args.intensity){
+        ref.current.intensity = om.args.intensity;
+      }
       if (om.args.bias) {
         ref.current.shadow.mapSize.bias = om.args.bias;
       }
