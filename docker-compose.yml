@@ -17,9 +17,6 @@ services:
       - ./public:/app/public
       - ./app:/app/app
       - ./lib:/app/lib
-    restart: always
-    tty: true
-    stdin_open: true
     networks:
       - app_network
 
